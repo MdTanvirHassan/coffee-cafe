@@ -1,0 +1,117 @@
+.container {
+    position: relative;
+    max-width: 1452px;
+    max-height: 578px;
+    margin: auto;
+  
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 7rem;
+  
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 12fr);
+        gap: 0;
+        align-items: flex-start;
+        text-align: left;
+        margin-bottom: 16rem;
+        margin-top: 0;
+        justify-items: center;
+        width: 100%;
+        height: 100%;
+  
+        & > div {
+          height: 100%;
+        }
+      }
+  
+      .bgWhite {
+        background-color: #fff;
+        max-width: 508px;
+        height: 100%;
+        z-index: 10;
+        margin: auto;
+        position: relative;
+  
+        .absolute {
+          position: absolute;
+          left: 0;
+        }
+  
+        .relative {
+          position: relative;
+          padding: 10rem;
+          width: 384px;
+          height: 308px;
+          margin: auto;
+          left: 12px;
+          top: 172px;
+  
+          .title {
+            font-size: 90px;
+            line-height: 75px;
+            font-weight: normal;
+            font-family: Raleway;
+            color: #222;
+            width: 384px;
+            height: 120px;
+            margin-bottom: 1rem;
+          }
+  
+          .subtitle {
+            font-family: Raleway;
+            font-weight: normal;
+            font-size: 1.6rem;
+            line-height: 1.5;
+            max-width: 369px;
+            height: 75px;
+            margin-bottom: 1rem;
+          }
+
+  
+          button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            text-decoration: none;
+            font-family: Raleway;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 24px;
+            color: #ffffff;
+            background-color: #a35715;
+            border: none;
+            border-radius: 9999px;
+            padding: 12px 24px;
+            transition: background-color 0.2s ease-in-out;
+  
+            &:hover {
+              background-color: #3f3f46;
+            }
+  
+            &:focus {
+              outline: none;
+            }
+          }
+        }
+      }
+  
+      & > div:last-child {
+       // @extend .md:col-span-2;
+        //width: 100%;
+        max-width: 932px;
+        max-height: 568px;
+  
+        img {
+        //   @extend .object-cover;
+        //   @extend .object-center;
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+  

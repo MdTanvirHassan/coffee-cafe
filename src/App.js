@@ -1,7 +1,8 @@
 import Header from "./components/Header/Header";
-import Hero from "./components/Hero/Hero";
 import { Routes, Route } from "react-router-dom";
-import React from "react"
+import React from "react";
+import Hero from "./components/Hero/Hero";
+
 
 function App() {
   return (

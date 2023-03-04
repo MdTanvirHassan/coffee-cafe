@@ -1,0 +1,98 @@
+.container {
+  position: relative;
+  max-width: 1452px;
+  max-height: 578px;
+  margin: auto;
+}
+.container .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 7rem;
+}
+.container .wrapper .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 12fr);
+  gap: 0;
+  align-items: flex-start;
+  text-align: left;
+  margin-bottom: 16rem;
+  margin-top: 0;
+  justify-items: center;
+  width: 100%;
+  height: 100%;
+}
+.container .wrapper .grid > div {
+  height: 100%;
+}
+.container .wrapper .bgWhite {
+  background-color: #fff;
+  max-width: 508px;
+  height: 100%;
+  z-index: 10;
+  margin: auto;
+  position: relative;
+}
+.container .wrapper .bgWhite .absolute {
+  position: absolute;
+  left: 0;
+}
+.container .wrapper .bgWhite .relative {
+  position: relative;
+  padding: 10rem;
+  width: 384px;
+  height: 308px;
+  margin: auto;
+  left: 12px;
+  top: 172px;
+}
+.container .wrapper .bgWhite .relative .title {
+  font-size: 90px;
+  line-height: 75px;
+  font-weight: normal;
+  font-family: Raleway;
+  color: #222;
+  width: 384px;
+  height: 120px;
+  margin-bottom: 1rem;
+}
+.container .wrapper .bgWhite .relative .subtitle {
+  font-family: Raleway;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  max-width: 369px;
+  height: 75px;
+  margin-bottom: 1rem;
+}
+.container .wrapper .bgWhite .relative button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  background-color: #a35715;
+  border: none;
+  border-radius: 9999px;
+  padding: 12px 24px;
+  transition: background-color 0.2s ease-in-out;
+}
+.container .wrapper .bgWhite .relative button:hover {
+  background-color: #3f3f46;
+}
+.container .wrapper .bgWhite .relative button:focus {
+  outline: none;
+}
+.container .wrapper > div:last-child {
+  max-width: 932px;
+  max-height: 568px;
+}
+.container .wrapper > div:last-child img {
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=hero.module.css.map */
