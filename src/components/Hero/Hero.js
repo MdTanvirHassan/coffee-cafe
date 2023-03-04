@@ -8,16 +8,15 @@ const Hero = () => {
         <div>
       <section id="home" className={styles.container}>
         <div className={styles.wrapper}>
-          <div className={styles.grid}>
-            <div className={`${styles.col} ${styles.bgWhite}`}>
-              <div className={styles.absolute}>
+          <div className={styles.hero}>
+            <div className={`${styles.left}`}>
+              <div className={styles.left2}>
                 
                   <img
                     src={bg}
                     alt=""
-                    width={145}
-                    height={141}
-                    className={`${styles.objectCover} ${styles.objectCenter}`}
+                    
+                    className={`${styles.img} `}
                   />
                
               </div>
@@ -38,7 +37,7 @@ const Hero = () => {
                 </button>
               </div>
             </div>
-            <div className={`${styles.col} ${styles.bgImg}`}>
+            <div className={`${styles.right} `}>
               <img
                 className={`${styles.objectCover} ${styles.objectCenter}`}
                 alt="hero"
