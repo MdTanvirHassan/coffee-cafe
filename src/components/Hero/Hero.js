@@ -1,5 +1,5 @@
 import React from 'react';
-import img from "../../assets/images/hero.png";
+//import img from "../../assets/images/hero.png";
 import bg from "../../assets/images/group.png";
 import styles from "./hero.module.scss";
 
@@ -38,11 +38,11 @@ const Hero = () => {
               </div>
             </div>
             <div className={`${styles.right} `}>
-              <img
-                className={`${styles.objectCover} ${styles.objectCenter}`}
+              {/* <img
+                className={`${styles.img2}`}
                 alt="hero"
                 src={img}
-              />
+              /> */}
             </div>
           </div>
         </div>
